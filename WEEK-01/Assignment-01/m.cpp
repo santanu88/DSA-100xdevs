@@ -7,7 +7,7 @@ int main (){
 
     if (marks >= 35)
     {
-        cout << "PASS" <<endl;
+        cout << "Pass" <<endl;
     }else
     cout << "Fail" <<endl;
 
