@@ -1,5 +1,5 @@
 
-// to print all eben numbers from 1 to N
+// to print all even numbers from 1 to N
 #include <iostream>
 using namespace std;
 
@@ -11,23 +11,30 @@ int main()
 
     while (i <= n)
     {
-        if (i%2 ==0)
+        if (i % 2 == 0)
         {
-            cout << i<< endl;
+            cout << i << endl;
         }
-        
-        
+
         i++;
     }
-    
 }
-//  2
-// 4
-// 6
-// 8
-// 10
-// 12
-// 14
-// 16
-// 18
-// 20
+// another way to slove this problem
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    int i = 1; // beacuse we know that we have to print even numbers and 2 is smallest even number
+
+    while (i <= n)
+    {
+
+        cout << i << endl;
+
+        i += 2; // it will incrase the i value 2 times
+    }
+}
