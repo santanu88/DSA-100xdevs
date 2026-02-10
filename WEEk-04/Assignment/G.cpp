@@ -13,7 +13,7 @@ int main()
     long long flag = true;
     for (int i = 1; i < N; i++)
     {
-        if (sort[i] >= sort[i - 1])
+        if (sort[i] >= sort[i - 1])//it started the  coint from index 1 to i-1 =0 measn 1---0 ,, 2---1
         {
         }
         else
